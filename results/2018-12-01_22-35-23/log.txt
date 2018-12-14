@@ -1,0 +1,3 @@
+2018-12-01 22:35:23 - INFO - saving to ./results/2018-12-01_22-35-23
+2018-12-01 22:35:23 - DEBUG - run arguments: Namespace(batch_size=256, dataset='imagenet', device='cuda', device_ids=[0], dtype='float', epochs=90, evaluate=None, input_size=None, lr=0.1, model='alexnet', model_config='', momentum=0.9, optimizer='SGD', print_freq=10, results_dir='./results', resume='', save='2018-12-01_22-35-23', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2018-12-01 22:35:23 - INFO - creating model alexnet

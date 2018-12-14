@@ -1,0 +1,29 @@
+2018-12-06 15:40:35 - INFO - saving to ./results/ody_test
+2018-12-06 15:40:35 - DEBUG - run arguments: Namespace(batch_size=256, dataset='cifar10', device='cuda', device_ids=[1], dtype='float', epochs=250, evaluate=None, input_size=None, lr=0.05, model='resnet_quantized_float_bn_pruning', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=40, results_dir='./results', resume='./results/quantized_resnet18_pruning/model_best.pth.tar', save='ody_test', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2018-12-06 15:40:35 - INFO - creating model resnet_quantized_float_bn_pruning
+2018-12-06 15:40:35 - INFO - created model with configuration: {'input_size': None, 'dataset': 'cifar10', 'depth': 18}
+2018-12-06 15:40:35 - INFO - loading checkpoint './results/quantized_resnet18_pruning/model_best.pth.tar'
+2018-12-06 15:40:39 - INFO - loaded checkpoint './results/quantized_resnet18_pruning/model_best.pth.tar' (epoch 134)
+2018-12-06 15:40:39 - INFO - number of parameters: 175258
+2018-12-06 15:42:21 - INFO - saving to ./results/ody_test
+2018-12-06 15:42:21 - DEBUG - run arguments: Namespace(batch_size=256, dataset='cifar10', device='cuda', device_ids=[1], dtype='float', epochs=250, evaluate=None, input_size=None, lr=0.05, model='resnet_quantized_float_bn_pruning', model_config="{'depth': 18}", momentum=0.9, optimizer='SGD', print_freq=40, results_dir='./results', resume='./results/quantized_resnet18_pruning/model_best.pth.tar', save='ody_test', seed=123, start_epoch=0, weight_decay=0.0001, workers=8)
+2018-12-06 15:42:21 - INFO - creating model resnet_quantized_float_bn_pruning
+2018-12-06 15:42:21 - INFO - created model with configuration: {'input_size': None, 'dataset': 'cifar10', 'depth': 18}
+2018-12-06 15:42:21 - INFO - loading checkpoint './results/quantized_resnet18_pruning/model_best.pth.tar'
+2018-12-06 15:42:25 - INFO - loaded checkpoint './results/quantized_resnet18_pruning/model_best.pth.tar' (epoch 134)
+2018-12-06 15:42:25 - INFO - number of parameters: 175258
+2018-12-06 15:43:00 - INFO - EVALUATING - Epoch: [0][39/40]	Time 0.022 (0.071)	Data 0.000 (0.024)	Loss 0.1665 (0.3821)	Prec@1 87.500 (88.780)	Prec@5 100.000 (99.660)
+2018-12-06 15:43:01 - INFO - training regime: [{'epoch': 0, 'optimizer': 'SGD', 'lr': 0.1, 'weight_decay': 0.0001, 'momentum': 0.9}, {'epoch': 81, 'lr': 0.01}, {'epoch': 122, 'lr': 0.001, 'weight_decay': 0}, {'epoch': 164, 'lr': 0.0001}]
+2018-12-06 15:43:01 - INFO - Magnitude of weights: 0.09550750255584717
+2018-12-06 15:43:01 - INFO - Magnitude of distance: 0.03503008186817169
+2018-12-06 15:43:01 - INFO - STD of distance: 0.11103439331054688
+2018-12-06 15:43:01 - INFO - 0-Sketch: 
+2018-12-06 15:43:04 - INFO - EVALUATING - Epoch: [0][39/40]	Time 0.009 (0.063)	Data 0.000 (0.016)	Loss 6.8071 (6.3139)	Prec@1 12.500 (11.390)	Prec@5 62.500 (57.900)
+2018-12-06 15:43:04 - INFO - Start Retraining ...
+2018-12-06 15:43:05 - DEBUG - OPTIMIZER - setting lr = 0.1
+2018-12-06 15:43:05 - DEBUG - OPTIMIZER - setting momentum = 0.9
+2018-12-06 15:43:05 - DEBUG - OPTIMIZER - setting weight_decay = 0.0001
+2018-12-06 15:43:22 - INFO - TRAINING - Epoch: [1][195/196]	Time 0.128 (0.092)	Data 0.000 (0.004)	Loss 0.3069 (0.3892)	Prec@1 90.000 (86.662)	Prec@5 100.000 (99.530)
+2018-12-06 15:43:25 - INFO - EVALUATING - Epoch: [0][39/40]	Time 0.009 (0.070)	Data 0.000 (0.024)	Loss 0.4891 (0.7146)	Prec@1 87.500 (78.270)	Prec@5 100.000 (99.000)
+2018-12-06 15:43:42 - INFO - TRAINING - Epoch: [2][195/196]	Time 0.026 (0.091)	Data 0.000 (0.004)	Loss 0.5029 (0.3352)	Prec@1 78.750 (88.028)	Prec@5 98.750 (99.702)
+2018-12-06 15:43:45 - INFO - EVALUATING - Epoch: [0][39/40]	Time 0.009 (0.068)	Data 0.000 (0.022)	Loss 0.4983 (0.5581)	Prec@1 87.500 (82.090)	Prec@5 100.000 (99.130)
